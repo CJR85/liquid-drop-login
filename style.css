@@ -157,6 +157,11 @@ body {
   letter-spacing: 0.1em;
   font-size: 0.8em;
   transition: 0.25s;
+  text-align: center;
+  box-shadow: inset 10px 10px 10px rgba(190, 1, 254, 0.05),
+    15px 25px 10px rgba(190, 1, 254, 1), 15px 20px 20px rgba(190, 1, 254, 1),
+    inset -10px -10px 15px rgba(255, 255, 255, 0.5);
+  border-radius: 44% 56% 65% 35% / 57% 58% 42% 43%;
 }
 
 .btns:hover {
