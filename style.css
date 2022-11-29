@@ -95,10 +95,23 @@ body {
   border-radius: 25px;
 }
 
+.container .drop .content form .inputBox::before {
+  content: '';
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 65%;
+  height: 5px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+}
+
 .container .drop .content form .inputBox input {
   border: none;
   outline: none;
   background: transparent;
   width: 100%;
   font-size: 1em;
+  padding: 10px 15px;
 }
