@@ -16,6 +16,7 @@ body {
 
 .container {
   position: relative;
+  left: -80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -84,6 +85,8 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
 .container .drop .content form .inputBox {
@@ -130,4 +133,9 @@ body {
   background: #ff0f5b;
   box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.1),
     15px 15px 10px rgba(0, 0, 0, 0.05), 15px 10px 15px rgba(0, 0, 0, 0.025);
+  transition: 0.5s;
+}
+
+.container .drop .content form .inputBox:last-child:hover {
+  width: 150px;
 }
