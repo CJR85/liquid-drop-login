@@ -139,3 +139,26 @@ body {
 .container .drop .content form .inputBox:last-child:hover {
   width: 150px;
 }
+
+.btns {
+  position: absolute;
+  right: -120px;
+  bottom: 0;
+  width: 120px;
+  height: 120px;
+  background: #c61dff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+  line-height: 1.2em;
+  letter-spacing: 0.1em;
+  font-size: 0.8em;
+  transition: 0.25s;
+}
+
+.btns:hover {
+  border-radius: 50%;
+}
